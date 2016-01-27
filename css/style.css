@@ -8,6 +8,7 @@
 html,
 body {
 	margin: 0;
+	font-family: "Arial", "Gadget", sans-serif;
 }
 
 .container {
@@ -17,7 +18,42 @@ body {
 
 .clear {
 	clear: both;
+	background-color: #87cefa;
+	padding: 12px;
 }
+
+header {
+	background-color: #87cefa;
+	margin-top: 0;
+	padding: 0;
+}
+
+.instructions {
+	border: 4px solid #DDDDDD;
+	padding: 10px 30px;
+	margin: 0 0 30px;
+}
+
+.pull-left {
+	border: 4px solid #dddddd;
+	float: left;
+	margin: 0 15px 10px 0;
+}
+
+.pull-right {
+	border: 4px solid #dfe1e3;
+	float: right;
+}
+
+footer {
+	margin: 20px 0 0;
+	padding: 5px;
+	background-color: #000000;
+	color: dimgrey;
+	font-style: italic;
+	font-size: 0.5em;
+}
+
 
 /***
 * Flexbox Sticky Footer
